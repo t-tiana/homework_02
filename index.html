@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_02</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div id="message"></div>
+<section id="miles_converter">
+    <p>Convert km to ml and vice versa.</p>
+    <p>
+        <input type="number" id="kilometers" value="0" oninput="0" onchange="kilometersConvert()" />
+        <label for="kilometers">km</label>
+    </p>
+    <p>
+        <input type="number" id="miles" value="0" oninput="0" onchange="milesConvert()"/>
+        <label for="miles">ml</label>
+    </p>
+</section>
+</br>
+<section id = "petrolQuestion">
+    <p>Calculate the money you can spend for petrol.</p>
+    <p>
+        <label for="money">Input the amount of your money</label>
+        <input type="number" id="money" value="0" oninput="0" />
+       </p>
+    <p>
+        <label for="petrol">Price of petrol</label>
+        <input type="number" id="petrol" value="0" oninput="0"/>
+    </p>
+    <button class="button-calculate" onclick="petrolCalculator()">Calculate</button>
+    </br>
+    <p>
+    <label for="petrolAmount">You can buy: </label>
+    <p id="petrolAmount"></p>
+    </p>
+    <p>
+    <label for="moneyLeftOutput">The amount of money that would left: </label>
+    <p id="moneyLeftOutput"></p>
+    </p>
+</section>
+
+<!--Класна робота-->
+<!--1.Додати 2 скрипта на сторінку (напряму в тегу script та підключіть джс фаїл),-->
+<!--у кожному з скриптів виведіть алерт з хеллов ворлд текстом.-->
+<script>
+    alert('Hello World!');
+</script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
