@@ -44,8 +44,8 @@ alert(`Are you ${age} years old?`);
 
 // 3. Запитайтесь у юзера довжини сторін прямокутника та виведіть його периметр.
 
-let rectangleLength = prompt('Input the rectangle length.', '25');
-let rectangleWidth = prompt('Input the rectangle width.', '15');
+let rectangleLength = prompt('Input the rectangle\'s length.', '25');
+let rectangleWidth = prompt('Input the rectangle\'s width.', '15');
 let rectanglePerimeter = 2 * (Number(rectangleLength)+Number(rectangleWidth));
 alert(`The perimeter is ${rectanglePerimeter}`);
 
